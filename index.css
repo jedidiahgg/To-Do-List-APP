@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: bisque;
+    box-sizing: border-box;
+}
+
+div.container{
+    background-color: hsla(240, 48%, 38%, 0.8);
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    border-radius: 10px;
+}
+div.container h1{
+    color: white;
+    font-family:sans-serif;
+    padding: 10px;
+   
+}
+h1 img{
+    width: 46px;
+    transform: rotate(-30deg);
+}
+input[type="text"]{
+    width: 500px;
+    font-size: 1.5rem;
+    height: 50px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+}
+button#add{
+    width:150px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    color:white;
+    background-color: rgba(10, 200, 115, 0.7);
+    border: none;
+    margin-bottom: 30px;
+    padding: 5px;
+    text-align: center;
+
+}
+button#add:hover{
+    background-color: rgba(10, 200, 115, 0.8);
+}
+button#add:active{
+    background-color: rgba(10, 200, 115, 0.9);
+}
+input.checker{
+    width: 40px;
+    height: 40px;
+    vertical-align: middle;
+}
+label.myTask{
+    display: inline-block;
+    width: 50%;
+    font-size: 2rem;
+    padding: 5px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    margin: 10px;
+    text-align: left;
+    vertical-align: middle;
+
+}
+
+div#display button.delete{
+    background-color: rgba(133, 25, 13, 0.994);
+    border:0;
+    width: 190px;
+    height: 60px;
+    font-size: 2rem;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    font-family: monospace;
+    margin: 5px;
+}
+div#display img{
+    width: 42px;
+    margin: 5px;
+    vertical-align: middle;
+}
+div.clear{
+    display: none;
+}
+div.clear button{
+    width: 100%;
+    background-color: silver;
+    color: rgb(135, 135, 135);
+    font-size: 2rem;
+    border: none;
+    font-weight: bold;
+    padding: 10px;
+    font-family: sans-serif;
+}
+div.completed label{
+    text-decoration: line-through;
+    text-decoration-color: red;
+    text-decoration-style: double;
+    transition:text-decoration 0.5s ease-in-out;
+}
